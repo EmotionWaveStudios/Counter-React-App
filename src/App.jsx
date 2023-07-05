@@ -19,13 +19,11 @@ const App = () => {
     <>
       <div>
         <button onClick={decreaseCount} className="border-4 p-3">
-          {" "}
-          -{" "}
+          Decrease
         </button>
         <span className=" p-3">{count}</span>
         <button onClick={increaseCount} className="border-4 p-3">
-          {" "}
-          +{" "}
+          Increase
         </button>
         <button onClick={resetCount} className="border-4 p-3">
           Reset
